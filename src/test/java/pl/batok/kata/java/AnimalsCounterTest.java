@@ -24,7 +24,7 @@ public class AnimalsCounterTest {
     private Object[] animalGenerator() {
         return new Object[] {
                 new Object[]{ new String [] {"kotecek","piesecek","mysz"},new String[] {"kotecek","piesecek"}, new String("cek")},
-                new Object[]{ new String [] {"kotecek","piesecek","mysz"},new String[] {"kotecek"}, new String("cek")}
+                new Object[]{ new String [] {"nosek","włosek","kokosek"},new String[] {"kokosek"}, new String("kok")}
         };
     }
 }
