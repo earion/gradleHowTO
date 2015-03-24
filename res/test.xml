@@ -1,0 +1,403 @@
+
+<cpe model="Livebox PROD">
+    <SAVI>CO34641955</SAVI>
+    <TestingDeviceGtdId>NOT_IDENTIFIED</TestingDeviceGtdId>
+    <Result>pass</Result>
+    <DeviceModel>LB-NULL-V3-FR</DeviceModel>
+    <LiveboxModel>Livebox V3 STEP4</LiveboxModel>
+    <FMW/>
+    <SN/>
+    <MAC>34:8A:AE:3A:B3:02</MAC>
+    <Result>pass</Result>
+    <TestDuration>950</TestDuration>
+    <CpeTesterName>L2-18-04</CpeTesterName>
+    <Source>TEST</Source>
+    <TestingScriptVersion id="0.9" name="Livebox PROD"/>
+    <TestDateTime>2015-02-04 12:12:17</TestDateTime>
+    <Status>OK</Status>
+    <TestResults>
+        <numberScanning>
+            <RegexpUserInput>
+                <SAVI>
+                    <Result>pass</Result>
+                    <Input>CO34641955</Input>
+                </SAVI>
+            </RegexpUserInput>
+            <RegexpUserInput>
+                <SERIAL_NUMBER>
+                    <Result>pass</Result>
+                    <Input>LK14165DP140189</Input>
+                </SERIAL_NUMBER>
+            </RegexpUserInput>
+        </numberScanning>
+        <visualTests>
+            <SingleChoiceVerdictViewer>
+                <shakeTest>
+                    <Result>pass</Result>
+                </shakeTest>
+                <wpsButton>
+                    <Result>pass</Result>
+                </wpsButton>
+                <Ethernet1>
+                    <Result>pass</Result>
+                </Ethernet1>
+                <Ethernet2>
+                    <Result>pass</Result>
+                </Ethernet2>
+                <Ethernet3>
+                    <Result>pass</Result>
+                </Ethernet3>
+                <Ethernet4>
+                    <Result>pass</Result>
+                </Ethernet4>
+                <WAN>
+                    <Result>pass</Result>
+                </WAN>
+                <resetButton>
+                    <Result>pass</Result>
+                </resetButton>
+                <powerPort>
+                    <Result>pass</Result>
+                </powerPort>
+                <DSL>
+                    <Result>pass</Result>
+                </DSL>
+                <FXS>
+                    <Result>pass</Result>
+                </FXS>
+                <USBRear>
+                    <Result>pass</Result>
+                </USBRear>
+                <powerButton>
+                    <Result>pass</Result>
+                </powerButton>
+                <USBFront>
+                    <Result>pass</Result>
+                </USBFront>
+                <WiFiButton>
+                    <Result>pass</Result>
+                </WiFiButton>
+                <InfoButton>
+                    <Result>pass</Result>
+                </InfoButton>
+            </SingleChoiceVerdictViewer>
+        </visualTests>
+        <LoadCurrentMeasurement>
+            <LoadCurrentValue>320</LoadCurrentValue>
+            <Result>pass</Result>
+        </LoadCurrentMeasurement>
+        <VerificationOfEthernetConnection>
+            <VerifyEthernetConnection>
+                <ETH1_Result>pass</ETH1_Result>
+                <Result>pass</Result>
+            </VerifyEthernetConnection>
+        </VerificationOfEthernetConnection>
+        <EthernetPortsTest>
+            <EthernetPortCheck_ETH1>
+                <Speed_MB>1000</Speed_MB>
+                <PingsReceived>100.0</PingsReceived>
+                <Quality>100.0</Quality>
+                <AvgTime>0.914</AvgTime>
+                <MaxTime>2.243</MaxTime>
+                <Result>pass</Result>
+            </EthernetPortCheck_ETH1>
+            <EthernetPortCheck_ETH2>
+                <Speed_MB>1000</Speed_MB>
+                <PingsReceived>100.0</PingsReceived>
+                <Quality>100.0</Quality>
+                <AvgTime>0.917</AvgTime>
+                <MaxTime>2.215</MaxTime>
+                <Result>pass</Result>
+            </EthernetPortCheck_ETH2>
+            <EthernetPortCheck_ETH3>
+                <Speed_MB>1000</Speed_MB>
+                <PingsReceived>100.0</PingsReceived>
+                <Quality>100.0</Quality>
+                <AvgTime>0.928</AvgTime>
+                <MaxTime>2.039</MaxTime>
+                <Result>pass</Result>
+            </EthernetPortCheck_ETH3>
+            <EthernetPortCheck_ETH4>
+                <Speed_MB>1000</Speed_MB>
+                <PingsReceived>100.0</PingsReceived>
+                <Quality>100.0</Quality>
+                <AvgTime>0.93</AvgTime>
+                <MaxTime>2.056</MaxTime>
+                <Result>pass</Result>
+            </EthernetPortCheck_ETH4>
+        </EthernetPortsTest>
+        <connectionToLivebox>
+            <BOX_IS_RESPONDING>
+                <Result>pass</Result>
+            </BOX_IS_RESPONDING>
+            <LIVEBOX_CONNECTION>
+                <Result>pass</Result>
+            </LIVEBOX_CONNECTION>
+            <BOX_SET_WIFI>
+                <WI_FI_STATE>DISABLING</WI_FI_STATE>
+                <WiFiState/>
+                <Result>inconclusif</Result>
+            </BOX_SET_WIFI>
+            <main_lb_data>
+                <DeviceModel>LB-NULL-V3-FR</DeviceModel>
+                <LiveboxModel>Livebox V3 STEP4</LiveboxModel>
+                <FMW/>
+                <SN/>
+                <Result>pass</Result>
+            </main_lb_data>
+        </connectionToLivebox>
+        <readCustomerData>
+            <GET_CUSTOMER_DATA>
+                <SN>LK14165DP140189</SN>
+                <PhysicalLayer>FTTH</PhysicalLayer>
+                <FirewallLevel>Medium</FirewallLevel>
+                <ConnectedDevices>None</ConnectedDevices>
+                <DECTListHandsets>None</DECTListHandsets>
+                <DECTPIN>None</DECTPIN>
+                <DECTStandardVersion>None</DECTStandardVersion>
+                <DHCPGatewayAdd>None</DHCPGatewayAdd>
+                <DHCPServerStatus>OK</DHCPServerStatus>
+                <DHCPSubnetMask>255.255.255.0</DHCPSubnetMask>
+                <DHCPaddStaticLease>None</DHCPaddStaticLease>
+                <DNS1>None</DNS1>
+                <DNS2>?</DNS2>
+                <Encapsulation>None</Encapsulation>
+                <FirewallStatus>OK</FirewallStatus>
+                <FirmwareVersion>4.28.35.2</FirmwareVersion>
+                <HardwareVersion>SG_LB3_1.2.1</HardwareVersion>
+                <IDVendorModem>Sagemcom</IDVendorModem>
+                <LastPPPConnectionError>None</LastPPPConnectionError>
+                <MacEth>34:8A:AE:3A:B3:02</MacEth>
+                <Model>Livebox V3</Model>
+                <Password/>
+                <PublicGatewayIP>None</PublicGatewayIP>
+                <TVRoutingMode>FullRouted</TVRoutingMode>
+                <TVServiceMode>TV_MULTI_DISABLE</TVServiceMode>
+                <UPnPStatus>None</UPnPStatus>
+                <UserName>None</UserName>
+                <VPVC>None</VPVC>
+                <VoIPProtocol>H323</VoIPProtocol>
+                <VoIP_Status>NOK</VoIP_Status>
+                <WanMode>Detecting</WanMode>
+                <currentWifiChannel>6</currentWifiChannel>
+                <dhcp_end_addr>192.168.1.150</dhcp_end_addr>
+                <dhcp_start_addr>192.168.1.10</dhcp_start_addr>
+                <telephoneNumber>None</telephoneNumber>
+                <upgradeFirmwareStatus>MISSING</upgradeFirmwareStatus>
+                <wifiChannel>Auto</wifiChannel>
+                <wifiEncryptionMode>AUTO</wifiEncryptionMode>
+                <wifiIPAddressesList>None</wifiIPAddressesList>
+                <wifiMACAddr>34:8A:AE:3A:B3:02</wifiMACAddr>
+                <wifiMacAddressesList>None</wifiMacAddressesList>
+                <wifiMacFilterActivation>NOK</wifiMacFilterActivation>
+                <wifiSSID>Livebox-B302</wifiSSID>
+                <wifiSSIDBroadcast>OK</wifiSSIDBroadcast>
+                <wifiSecuLevel>WPA or WPA2</wifiSecuLevel>
+                <wifiStatus>None</wifiStatus>
+                <wifiWEPKey>ED61A6CF3FDAF2332DC5E415A5</wifiWEPKey>
+                <wifiWPAKey>ED61A6CF3FDAF2332DC5E415A5</wifiWPAKey>
+                <Result>pass</Result>
+            </GET_CUSTOMER_DATA>
+        </readCustomerData>
+        <xDSL>
+            <SET_UP_INTERNET_CONNECTION>
+                <Result>pass</Result>
+            </SET_UP_INTERNET_CONNECTION>
+            <xDSL_SYNCHRONIZATION>
+                <ADSL_ATTENUATION>2.0</ADSL_ATTENUATION>
+                <ADSL_ATTENUATION_UP>2.8</ADSL_ATTENUATION_UP>
+                <ADSL_DOWNSTREAM>42840</ADSL_DOWNSTREAM>
+                <ADSL_MODE>G.993.2_Annex_B</ADSL_MODE>
+                <ADSL_UPSTREAM>4280</ADSL_UPSTREAM>
+                <StatusADSLSynchro>Synchronized</StatusADSLSynchro>
+                <WanMode>VDSL_PPP</WanMode>
+                <Result>pass</Result>
+            </xDSL_SYNCHRONIZATION>
+            <CheckSynchronizationParameters>
+                <Result>pass</Result>
+            </CheckSynchronizationParameters>
+            <XDSL_PPP_SESSION>
+                <PPPSession>1</PPPSession>
+                <Result>pass</Result>
+            </XDSL_PPP_SESSION>
+            <Downloading_file>
+                <Speed_KB_s>306</Speed_KB_s>
+                <Result>pass</Result>
+            </Downloading_file>
+        </xDSL>
+        <UsbPortsTest>
+            <BoxTestUsbThroughGtd>
+                <physicalPort>USB_REAR</physicalPort>
+                <Result>pass</Result>
+            </BoxTestUsbThroughGtd>
+            <USB_COPY_TEST>
+                <USB_DEVICE_1_NAME>USB2</USB_DEVICE_1_NAME>
+                <Result>pass</Result>
+            </USB_COPY_TEST>
+        </UsbPortsTest>
+        <WAN>
+            <SET_UP_INTERNET_CONNECTION>
+                <Result>pass</Result>
+            </SET_UP_INTERNET_CONNECTION>
+            <WAN_SYNCHRONIZATION>
+                <PhysicalLayer>FTTH</PhysicalLayer>
+                <StatusFTTHSynchro>Synchronized</StatusFTTHSynchro>
+                <WanMode>Ethernet_PPP</WanMode>
+                <Result>pass</Result>
+            </WAN_SYNCHRONIZATION>
+            <WAN_PPP_SESSION>
+                <PPPSession>1</PPPSession>
+                <Result>pass</Result>
+            </WAN_PPP_SESSION>
+            <Downloading_file>
+                <Speed_KB_s>1734</Speed_KB_s>
+                <Result>pass</Result>
+            </Downloading_file>
+        </WAN>
+        <FXSPortTest>
+            <GTDGetFXSPortStatus>
+                <FSX1_RingingSignalTime>1570</FSX1_RingingSignalTime>
+                <FSX1_DCVoltageState>pass</FSX1_DCVoltageState>
+                <Result>pass</Result>
+            </GTDGetFXSPortStatus>
+        </FXSPortTest>
+        <Cat_IQ>
+            <SetUniqueDectPin>
+                <Result>pass</Result>
+            </SetUniqueDectPin>
+            <phoneNrOnePairingInfo>
+                <Result>pass</Result>
+            </phoneNrOnePairingInfo>
+            <SingleChoiceVerdictViewer olej=""true"">
+            <phoneNrOnePairingInfo olej=""true"">
+            <Result>pass</Result>
+        </phoneNrOnePairingInfo>
+    </SingleChoiceVerdictViewer>
+    <phoneNrTwoPairingInfo>
+        <Result>pass</Result>
+    </phoneNrTwoPairingInfo>
+    <SingleChoiceVerdictViewer olej=""true"">
+    <phoneNrTwoPairingInfo olej=""true"">
+    <Result>pass</Result>
+</phoneNrTwoPairingInfo>
+        </SingleChoiceVerdictViewer>
+<SingleChoiceVerdictViewer>
+<callEstablished>
+    <Result>pass</Result>
+</callEstablished>
+</SingleChoiceVerdictViewer>
+<SingleChoiceVerdictViewer>
+<noise>
+    <Result>pass</Result>
+</noise>
+</SingleChoiceVerdictViewer>
+        </Cat_IQ>
+<infoLedAndDisplayTest>
+<SingleChoiceVerdictViewer>
+    <InfoButtonPushTest>
+        <Result>pass</Result>
+    </InfoButtonPushTest>
+    <InfoLed>
+        <Result>pass</Result>
+    </InfoLed>
+    <screenDisplay>
+        <Result>pass</Result>
+    </screenDisplay>
+</SingleChoiceVerdictViewer>
+</infoLedAndDisplayTest>
+<testWpsButton>
+<BOX_SET_WIFI>
+    <WI_FI_STATE>DISABLING</WI_FI_STATE>
+    <WiFiState>NOK</WiFiState>
+    <Result>pass</Result>
+</BOX_SET_WIFI>
+<WIFI_STATE>
+    <wifiState>OK</wifiState>
+    <Result>pass</Result>
+</WIFI_STATE>
+<BOX_SET_WIFI>
+    <WI_FI_STATE>DISABLING</WI_FI_STATE>
+    <WiFiState>NOK</WiFiState>
+    <Result>pass</Result>
+</BOX_SET_WIFI>
+</testWpsButton>
+<TestWiFiLed>
+<BOX_SET_WIFI>
+    <WI_FI_STATE>DISABLING</WI_FI_STATE>
+    <WiFiState>NOK</WiFiState>
+    <Result>pass</Result>
+</BOX_SET_WIFI>
+<WIFI_STATE>
+    <wifiState>OK</wifiState>
+    <Result>pass</Result>
+</WIFI_STATE>
+<BOX_SET_WIFI>
+    <WI_FI_STATE>DISABLING</WI_FI_STATE>
+    <WiFiState>NOK</WiFiState>
+    <Result>pass</Result>
+</BOX_SET_WIFI>
+</TestWiFiLed>
+<TestsWiFi24>
+<BOX_SET_WIFI>
+    <WI_FI_STATE>ENABLING</WI_FI_STATE>
+    <WiFiState>OK</WiFiState>
+    <Result>pass</Result>
+</BOX_SET_WIFI>
+<NETWORK_DISCOVER_SSID_2400>
+    <Result>pass</Result>
+</NETWORK_DISCOVER_SSID_2400>
+<WI_FI_CONNECTION_2400>
+    <PingsReceived>100.0</PingsReceived>
+    <Quality>100.0</Quality>
+    <AvgTime>6.303</AvgTime>
+    <MaxTime>23.341</MaxTime>
+    <Result>pass</Result>
+</WI_FI_CONNECTION_2400>
+</TestsWiFi24>
+<TestsWiFi5>
+<BOX_SET_WIFI>
+    <WI_FI_STATE>ENABLING</WI_FI_STATE>
+    <WiFiState>OK</WiFiState>
+    <Result>pass</Result>
+</BOX_SET_WIFI>
+<NETWORK_DISCOVER_SSID_5000>
+    <Result>pass</Result>
+</NETWORK_DISCOVER_SSID_5000>
+<WI_FI_CONNECTION_5000>
+    <PingsReceived>100.0</PingsReceived>
+    <Quality>100.0</Quality>
+    <AvgTime>4.488</AvgTime>
+    <MaxTime>12.137</MaxTime>
+    <Result>pass</Result>
+</WI_FI_CONNECTION_5000>
+<BOX_SET_WIFI>
+    <WI_FI_STATE>DISABLING</WI_FI_STATE>
+    <WiFiState>OK</WiFiState>
+    <Result>inconclusif</Result>
+</BOX_SET_WIFI>
+</TestsWiFi5>
+<xdslPortState>
+<DSLPortState>125</DSLPortState>
+<Result>pass</Result>
+</xdslPortState>
+<LineShortcircuitStatus>
+<LineShortcircuitStatus>pass</LineShortcircuitStatus>
+<Result>pass</Result>
+</LineShortcircuitStatus>
+<Repersonalization>
+<RescueBoxReset>
+    <Result>pass</Result>
+</RescueBoxReset>
+<StopSendMagicProcess>
+    <Result>pass</Result>
+</StopSendMagicProcess>
+<RepersonalizationProcess>
+    <Result>pass</Result>
+    <newSN>OPS301506000050</newSN>
+    <newMAC>8C:F8:13:00:0C:4E</newMAC>
+    <newFMW>4.28.35</newFMW>
+</RepersonalizationProcess>
+</Repersonalization>
+        </TestResults>
+        </cpe>
+
